@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+}
+
+.menu {
+	background-color: #3498db;
+	font-family: arial;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+
+}
+
+ul li a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 18px;
+	padding: 20px;
+	transition: 0.5s;
+}
+
+ul li:hover a {
+	background-color: #000;
+	color: #fff;
+}
+
+/* Main menu design end */
+
+ul ul {
+	position: absolute;
+	top: 100%;
+	display: none;
+}
+
+
+ul ul li {
+	display: block;
+	width: 250px;
+}
+
+ul li:hover>ul {
+	display: block;
+}
+
+/* Submenu design end */
+
+ul ul ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+ul ul ul ul {
+	position: absolute;
+	left: -100%;
+	top: 0;
+}
