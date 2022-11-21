@@ -1,0 +1,64 @@
+.navbar {
+   background-color: green;
+   padding: 10px 10px;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: white;
+   font-size: 50px;
+   padding: 10px 10px;
+   transition: 0.5s;
+}
+
+.navbar a:hover {
+   background-color: red;
+   border-radius: 10px;
+}
+
+.dropdown1 {
+   display: inline;
+   position: relative;
+}
+
+.dropdown2 {
+   position: absolute;
+   top: 37px;
+   right: -30px;
+   background-color: red;
+   display: none;
+}
+
+.dropdown2 a {
+   display: block;
+   transition: 0.5s;
+   border-radius: 10px;
+}
+
+.dropdown1:hover .dropdown2 {
+   display: block;
+   border-radius: 10px;
+}
+
+.dropdown2 a:hover {
+   background-color: green;
+}
+.dropdown3{
+   position: relative;
+}
+.dropdown4{
+   background-color: green;
+width: 293px;
+position: absolute;
+left: 292px;
+top: 0px;
+display: none;
+transition: 0.5s;
+}
+.dropdown3:hover .dropdown4{
+   display: block;
+   border-radius: 10px;
+   background-color: red;
+}
